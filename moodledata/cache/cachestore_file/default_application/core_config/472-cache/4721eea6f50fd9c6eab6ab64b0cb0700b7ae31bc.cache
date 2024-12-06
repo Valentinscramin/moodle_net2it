@@ -1,0 +1,12 @@
+a:15:{s:30:"action_generate_image_endpoint";s:44:"https://api.openai.com/v1/images/generations";s:27:"action_generate_image_model";s:8:"dall-e-3";s:29:"action_generate_text_endpoint";s:42:"https://api.openai.com/v1/chat/completions";s:26:"action_generate_text_model";s:6:"gpt-4o";s:38:"action_generate_text_systeminstruction";s:276:"Você receberá uma entrada de texto do usuário. Sua tarefa é gerar um texto com base na solicitação deles. Siga estas instruções importantes:
+    1. Retorne o resumo apenas em texto simples.
+    2. Não inclua nenhuma formatação markdown, saudações ou formalidades.";s:30:"action_summarise_text_endpoint";s:42:"https://api.openai.com/v1/chat/completions";s:27:"action_summarise_text_model";s:6:"gpt-4o";s:39:"action_summarise_text_systeminstruction";s:593:"Você receberá uma entrada de texto do usuário. Sua tarefa é resumir o texto fornecido. Siga estas diretrizes:
+    1. Condensar: Resuma longas passagens em pontos-chave.
+    2. Simplificar: Torne informações complexas mais fáceis de entender, especialmente para aprendizes.
+
+Instruções Importantes:
+    1. Retorne o resumo apenas em texto simples.
+    2. Não inclua qualquer formatação em markdown, saudações ou clichês.
+    3. Foque na clareza, concisão e acessibilidade.
+
+Garanta que o resumo seja fácil de ler e transmita efetivamente os principais pontos do texto original.";s:6:"apikey";s:0:"";s:21:"enableglobalratelimit";s:1:"0";s:19:"enableuserratelimit";s:1:"0";s:15:"globalratelimit";s:3:"100";s:5:"orgid";s:0:"";s:13:"userratelimit";s:2:"10";s:7:"version";s:10:"2024100700";}

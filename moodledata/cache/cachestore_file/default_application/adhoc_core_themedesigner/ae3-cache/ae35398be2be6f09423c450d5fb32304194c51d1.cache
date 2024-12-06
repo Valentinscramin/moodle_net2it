@@ -1,0 +1,198 @@
+a:2:{s:4:"data";s:6904:"/** Path: plugin mod_glossary .' **/
+:root {
+    --color_primary:   43,78,132   !important;
+    --color_secondary: 62,101,160 !important;
+    --color_buttons:   24,48,84   !important;
+    --color_names:     192,204,220     !important;
+    --color_titles:    232,240,251    !important;
+}@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/** General Styles **/
+.path-mod-glossary .glossarypost {
+    width: 95%;
+    border-collapse: separate;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.path-mod-glossary .glossarypost.entrylist {
+    border-width: 0;
+}
+
+.path-mod-glossary .glossarypost.continuous .concept {
+    display: inline;
+}
+
+.path-mod-glossary .glossarypost .commands {
+    width: 200px;
+    white-space: nowrap;
+}
+
+.path-mod-glossary .glossarypost td.picture {
+    width: 35px;
+}
+
+.path-mod-glossary .glossarypost .entrylowersection .icons {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.path-mod-glossary .glossarypost .entrylowersection .ratings {
+    text-align: right;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.path-mod-glossary .glossarypost .glossary-hidden-note {
+    margin: 0 .45em;
+}
+
+.path-mod-glossary .glossarydisplay {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.path-mod-glossary .glossarydisplay .tabs {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.path-mod-glossary .glossarydisplay .tabs .side {
+    border-style: none;
+    border-width: 0;
+    width: auto;
+}
+
+.path-mod-glossary .glossarydisplay .separator {
+    width: 4px;
+}
+
+.path-mod-glossary table.glossarypopup {
+    width: 95%;
+}
+
+.path-mod-glossary .entrybox,
+.path-mod-glossary table.glossaryapproval,
+.path-mod-glossary .glossarypost .entrylowersection table {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.glossary-activity-picture {
+    float: left;
+}
+
+.glossary-activity-content {
+    margin-left: 40px;
+}
+
+/** Page specific styles **/
+#page-mod-glossary-view .glossarycontrol {
+    float: right;
+    text-align: right;
+    white-space: nowrap;
+    margin: 5px 0;
+}
+
+#page-mod-glossary-view table.glossarycategoryheader,
+#page-mod-glossary-import table.glossaryimportexport {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page-mod-glossary-view table.glossarycategoryheader {
+    margin-bottom: 0;
+}
+
+#page-mod-glossary-view table.glossarycategoryheader th {
+    padding: 0;
+}
+
+#page-mod-glossary-view td.glossarysearchbox label {
+    display: inline-block;
+}
+
+#page-mod-glossary-showentry #page-content {
+    min-width: 600px;
+}
+
+#page-mod-glossary-print .mod-glossary-entrylist .mod-glossary-entry {
+    vertical-align: top;
+}
+
+#page-mod-glossary-print .displayprinticon,
+#page-mod-glossary-print .displaydate {
+    text-align: right;
+    font-size: 0.75em;
+}
+
+#page-mod-glossary-print .strong {
+    font-weight: bold;
+}
+
+.path-mod-glossary .printicon {
+    background: url(/moodle/theme/image.php?theme=degrade&component=core&image=t%2Fprint) no-repeat scroll 2px center transparent;
+    /*rtl:ignore*/
+    padding-left: 20px;
+}
+
+.course-box{
+max-width: 28rem !important;
+}
+.ff_one{
+max-width: 15rem !important;
+}
+            #header.fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.fixed-top .navbar-nav .nav-link.active,
+            #header.fixed-top .header-logo a.navbar-brand img,
+            #header.fixed-top .header-logo a.navbar-brand span,
+            #header.fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.fixed-top {
+                background: #5c5d5f !important;
+            }
+
+            #header.ever-fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.ever-fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.ever-fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.ever-fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.ever-fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.ever-fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.active,
+            #header.ever-fixed-top .header-logo a.navbar-brand img,
+            #header.ever-fixed-top .header-logo a.navbar-brand span,
+            #header.ever-fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.ever-fixed-top .custom-switch .custom-control-label:after{
+                background: #ffffff !important;
+            }
+            #header.ever-fixed-top {
+                background: #5c5d5f !important;
+            }
+body,* {font-family:Roboto, Arial, Helvetica, sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:Montserrat, Arial, Helvetica, sans-serif}
+.header-logo a.navbar-brand span {font-family:Oswald, Arial, Helvetica, sans-serif}
+.header-menubar .primary-navigation ul.navbar-nav li a,
+            .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light .navbar-nav .show>.nav-link,
+            .navbar-light .navbar-nav .active>.nav-link,
+            .navbar-light .navbar-nav .nav-link.show,
+            .navbar-light .navbar-nav .nav-link.active,
+            .header-logo a.navbar-brand img {
+                font-family : Roboto, Arial, Helvetica, sans-serif
+            }
+
+
+";s:7:"created";i:1733501939;}

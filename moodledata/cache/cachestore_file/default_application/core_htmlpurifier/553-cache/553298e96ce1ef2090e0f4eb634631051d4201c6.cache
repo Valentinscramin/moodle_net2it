@@ -1,0 +1,2 @@
+s:442:"<p>Um campo de texto que contém as expressões de filtragem para os URLs bloqueados. O uso do caractere curinga "*" é possível. Exemplos de expressões: "example.com" ou "example.com/stuff/*". "example.com" corresponde a "example.com", "www.example.com" e "www.mail.example.com". "example.com/stuff/*" corresponde a todas as solicitações a qualquer subdomínio de "example.com" que tenha "stuff" como o primeiro segmento do caminho.</p>
+";

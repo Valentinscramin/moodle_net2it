@@ -1,0 +1,237 @@
+a:2:{s:4:"data";s:8648:"/** Path: plugin qtype_ordering .' **/
+:root {
+    --color_primary:   43,78,132   !important;
+    --color_secondary: 62,101,160 !important;
+    --color_buttons:   24,48,84   !important;
+    --color_names:     192,204,220     !important;
+    --color_titles:    232,240,251    !important;
+}@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Styles for the initial layout of the question. */
+
+/* Ensure container covers the draggable items. */
+.que.ordering div.answer.ordering {
+    overflow: auto;
+}
+
+.que.ordering .sortablelist {
+    float: left;
+    list-style-type: none;
+    margin: 0 0 0 8px;
+}
+.que.ordering .sortablelist.active {
+    border: 1px dotted #333;
+    border-radius: 4px;
+}
+
+.que.ordering .sortablelist li {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 4px;
+}
+
+.que.ordering .sortablelist li .grip {
+    opacity: 0.45;
+}
+
+.que.ordering .sortablelist li.sortableitem {
+    position: relative;
+    cursor: move;
+    margin-left: 26px; /* The margin is needed for the list-style-type in numberingxxx classes */
+}
+
+.que.ordering .sortablelist li.sortableitem:first-of-type [data-action="move-backward"],
+.que.ordering .sortablelist li.sortableitem:last-of-type [data-action="move-forward"] {
+    visibility: hidden;
+}
+
+.que.ordering .sortableitem .btn.btn-icon {
+    height: 32px;
+    width: 32px;
+    border-radius: 0.5rem;
+}
+
+.que.ordering .sortablelist.numbering123 li,
+.que.ordering .sortablelist.numberingabc li,
+.que.ordering .sortablelist.numberingABCD li,
+.que.ordering .sortablelist.numberingiii li,
+.que.ordering .sortablelist.numberingIIII li {
+    margin-left: 26px; /* The margin is needed for the list-style-type in numberingxxx classes */
+}
+
+.que.ordering .sortablelist.numberingnone li {
+    list-style-type: none;
+    margin-left: 0;
+}
+.que.ordering .sortablelist.numbering123 li {
+    list-style-type: decimal;
+}
+.que.ordering .sortablelist.numberingabc li {
+    list-style-type: lower-alpha;
+}
+.que.ordering .sortablelist.numberingABCD li {
+    list-style-type: upper-alpha;
+}
+.que.ordering .sortablelist.numberingiii li {
+    list-style-type: lower-roman;
+}
+.que.ordering .sortablelist.numberingIIII li {
+    list-style-type: upper-roman;
+}
+
+.que.ordering .sortablelist.horizontal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Better define 'row' of item for horizontal list. */
+.que.ordering .sortablelist.horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.que.ordering .sortablelist.vertical li {
+    min-height: 18px;
+}
+
+/* Styles for when things are being dragged. */
+.que.ordering.dragproxy {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+}
+.que.ordering.dragproxy .sortablelist {
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+.que.ordering.dragproxy .sortablelist li {
+    margin: 0;
+    padding: 6px 0 6px 12px;
+    width: 100%;
+}
+.que.ordering.dragproxy .sortablelist li.horizontal {
+    float: none;
+}
+.item-moving {
+    box-shadow: 3px 3px 4px #000;
+}
+.current-drop {
+    visibility: hidden;
+}
+
+
+/* Styles for feedback. */
+.que.ordering .sortablelist.notactive li.correct {
+    background-color: #dff4d8; /* light green */
+    border-color: #9f6; /* gentle green */
+}
+.que.ordering .sortablelist.notactive li.partial66 {
+    background-color: #dff4d8; /* light green */
+    border-color: #f90; /* dark  orange */
+}
+.que.ordering .sortablelist.notactive li.partial33 {
+    background-color: #ffebcc; /* light orange */
+    border-color: #f90; /* dark orange */
+}
+.que.ordering .sortablelist.notactive li.partial00 {
+    background-color: #fdd; /* light red */
+    border-color: #f90; /* dark orange */
+}
+.que.ordering .sortablelist.notactive li.incorrect {
+    background-color: #fdd; /* light red */
+    border-color: #ff7373; /* gentle red */
+}
+/*
+    Force containing DIV to cover the floating LI elements
+    Note: if you add "overflow:auto;  to "ol.correctorder"
+    then the numbers for the <LI> elements disappear !!
+*/
+.que.ordering div.rightanswer {
+    overflow: auto;
+}
+.que.ordering div.rightanswer ol.correctorder {
+    padding-inline-start: 16px;
+}
+.que.ordering div.rightanswer ol.correctorder.horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.que.ordering div.rightanswer ol.correctorder li.horizontal {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.que.ordering div.rightanswer ol.correctorder li.vertical {
+    margin-left: 24px;
+}
+
+/* the width restriction can be limited to editors for draggable items
+   by inserting "fieldset:nth-child(n+4)" before "div.feditor" */
+#page-question-type-ordering form.mform fieldset:nth-child(n+4) div.feditor {
+    max-width: 480px;
+}
+
+.course-box{
+max-width: 28rem !important;
+}
+.ff_one{
+max-width: 15rem !important;
+}
+            #header.fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.fixed-top .navbar-nav .nav-link.active,
+            #header.fixed-top .header-logo a.navbar-brand img,
+            #header.fixed-top .header-logo a.navbar-brand span,
+            #header.fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.fixed-top {
+                background: #5c5d5f !important;
+            }
+
+            #header.ever-fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.ever-fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.ever-fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.ever-fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.ever-fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.ever-fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.active,
+            #header.ever-fixed-top .header-logo a.navbar-brand img,
+            #header.ever-fixed-top .header-logo a.navbar-brand span,
+            #header.ever-fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.ever-fixed-top .custom-switch .custom-control-label:after{
+                background: #ffffff !important;
+            }
+            #header.ever-fixed-top {
+                background: #5c5d5f !important;
+            }
+body,* {font-family:Roboto, Arial, Helvetica, sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:Montserrat, Arial, Helvetica, sans-serif}
+.header-logo a.navbar-brand span {font-family:Oswald, Arial, Helvetica, sans-serif}
+.header-menubar .primary-navigation ul.navbar-nav li a,
+            .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light .navbar-nav .show>.nav-link,
+            .navbar-light .navbar-nav .active>.nav-link,
+            .navbar-light .navbar-nav .nav-link.show,
+            .navbar-light .navbar-nav .nav-link.active,
+            .header-logo a.navbar-brand img {
+                font-family : Roboto, Arial, Helvetica, sans-serif
+            }
+
+
+";s:7:"created";i:1733501939;}

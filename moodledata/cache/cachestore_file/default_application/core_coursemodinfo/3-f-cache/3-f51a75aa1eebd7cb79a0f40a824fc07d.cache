@@ -1,0 +1,478 @@
+O:26:"core_cache\version_wrapper":2:{s:4:"data";O:8:"stdClass":9:{s:7:"modinfo";a:9:{i:2;O:8:"stdClass":17:{s:2:"id";s:1:"2";s:2:"cm";s:1:"2";s:3:"mod";s:5:"forum";s:7:"section";s:1:"0";s:13:"sectionnumber";s:1:"0";s:9:"sectionid";s:1:"7";s:6:"module";s:1:"9";s:5:"added";s:10:"1733064359";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:6:"Avisos";s:10:"customdata";a:1:{s:12:"trackingtype";s:1:"1";}}i:3;O:8:"stdClass":17:{s:2:"id";s:1:"1";s:2:"cm";s:1:"3";s:3:"mod";s:5:"label";s:7:"section";s:1:"0";s:13:"sectionnumber";s:1:"0";s:9:"sectionid";s:1:"7";s:6:"module";s:2:"13";s:5:"added";s:10:"1733064454";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";s:0:"";s:4:"name";s:19:"Bem-vindo ao Curso!";s:7:"content";s:391:"<div class="no-overflow"><p>Seja bem-vindo ao curso de <strong>Fundamentos da Internet e Programação Básica</strong>! Aqui, você aprenderá os conceitos essenciais para entender o funcionamento da internet e dar os primeiros passos no mundo da programação. Este curso é ideal para iniciantes e visa criar uma base sólida para continuar seus estudos no campo da tecnologia.</p></div>";}i:4;O:8:"stdClass":17:{s:2:"id";s:1:"2";s:2:"cm";s:1:"4";s:3:"mod";s:5:"label";s:7:"section";s:1:"0";s:13:"sectionnumber";s:1:"0";s:9:"sectionid";s:1:"7";s:6:"module";s:2:"13";s:5:"added";s:10:"1733064485";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";s:0:"";s:4:"name";s:65:"Índice do Curso: Fundamentos da Internet e Programação Básica";s:7:"content";s:4750:"<div class="no-overflow"><div class="flex-shrink-0 flex flex-col relative items-end">
+<div>
+<div class="pt-0"> </div>
+</div>
+</div>
+<div class="group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn">
+<div class="flex-col gap-1 md:gap-3">
+<div class="flex max-w-full flex-col flex-grow">
+<div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="af3cc3ec-55ea-4190-87bd-1d6403a0ba29" data-message-model-slug="gpt-4o">
+<div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<h3><strong>Introdução</strong></h3>
+<ul>
+<li>Boas-vindas e objetivos do curso</li>
+<li>Estrutura do curso e metodologia de aprendizado</li>
+<li>Materiais necessários</li>
+</ul>
+<hr>
+<h3><strong>Módulo 1: Fundamentos da Internet</strong></h3>
+<ol>
+<li>
+<p><strong>História e Evolução da Internet</strong></p>
+<ul>
+<li>Origem e desenvolvimento</li>
+<li>Expansão e impacto global</li>
+</ul>
+</li>
+<li>
+<p><strong>Como a Internet Funciona</strong></p>
+<ul>
+<li>Redes de computadores e IP</li>
+<li>DNS e o funcionamento de sites</li>
+<li>Protocolos: HTTP, HTTPS</li>
+</ul>
+</li>
+<li>
+<p><strong>Segurança Online</strong></p>
+<ul>
+<li>Privacidade e proteção de dados</li>
+<li>Ameaças comuns e como evitá-las</li>
+<li>Boas práticas de segurança</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>Módulo 2: Introdução à Programação</strong></h3>
+<ol>
+<li>
+<p><strong>Conceitos Básicos de Programação</strong></p>
+<ul>
+<li>O que é programação?</li>
+<li>Introdução às linguagens de programação</li>
+</ul>
+</li>
+<li>
+<p><strong>Lógica de Programação</strong></p>
+<ul>
+<li>Estruturas básicas: sequência, decisão e repetição</li>
+<li>Algoritmos e resolução de problemas</li>
+</ul>
+</li>
+<li>
+<p><strong>Configuração do Ambiente de Desenvolvimento</strong></p>
+<ul>
+<li>Ferramentas essenciais: IDEs, editores de texto</li>
+<li>Configuração inicial do ambiente de trabalho</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>Módulo 3: Introdução ao Desenvolvimento Web</strong></h3>
+<ol>
+<li>
+<p><strong>HTML Básico</strong></p>
+<ul>
+<li>Estrutura de documentos HTML</li>
+<li>Principais elementos e tags</li>
+</ul>
+</li>
+<li>
+<p><strong>CSS Básico</strong></p>
+<ul>
+<li>Estilização de páginas: cores, fontes e layout</li>
+<li>Aplicação prática de estilos</li>
+</ul>
+</li>
+<li>
+<p><strong>Projeto Prático: Criação de uma Página Web Simples</strong></p>
+<ul>
+<li>Integração de HTML e CSS</li>
+<li>Publicação local da página</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>Módulo 4: Primeiros Passos com Programação Dinâmica</strong></h3>
+<ol>
+<li>
+<p><strong>Introdução ao JavaScript</strong></p>
+<ul>
+<li>Sintaxe básica e estrutura de código</li>
+<li>Manipulação de elementos HTML</li>
+</ul>
+</li>
+<li>
+<p><strong>Trabalhando com Variáveis, Funções e Condicionais</strong></p>
+<ul>
+<li>Introdução a lógica dinâmica</li>
+<li>Exemplos e exercícios práticos</li>
+</ul>
+</li>
+<li>
+<p><strong>Projeto Prático: Página Interativa</strong></p>
+<ul>
+<li>Adicionando funcionalidades interativas</li>
+<li>Testando e ajustando o código</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>Módulo 5: Pensamento Computacional e Algoritmos</strong></h3>
+<ol>
+<li>
+<p><strong>Conceitos de Pensamento Computacional</strong></p>
+<ul>
+<li>Divisão de problemas e identificação de padrões</li>
+<li>Automatização de processos simples</li>
+</ul>
+</li>
+<li>
+<p><strong>Fluxogramas e Algoritmos</strong></p>
+<ul>
+<li>Criação de fluxogramas básicos</li>
+<li>Aplicação de algoritmos em problemas reais</li>
+</ul>
+</li>
+<li>
+<p><strong>Resolução de Problemas com Programação</strong></p>
+<ul>
+<li>Desenvolvendo soluções práticas</li>
+<li>Projeto de aplicação real</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>Conclusão e Projeto Final</strong></h3>
+<ul>
+<li>Desenvolvimento de um projeto integrador
+<ul>
+<li>Página web interativa com HTML, CSS e JavaScript</li>
+</ul>
+</li>
+<li>Feedback e avaliação do projeto</li>
+<li>Certificação e próximos passos sugeridos</li>
+</ul>
+<hr>
+<h3><strong>Extras</strong></h3>
+<ul>
+<li>Leituras complementares e recursos online</li>
+<li>Ferramentas recomendadas para aprofundamento</li>
+<li>Fóruns e comunidades de aprendizado</li>
+</ul>
+<p><strong>Carga Horária Total</strong>: 40 horas<br><strong>Certificação:</strong> Certificado de Conclusão (digital).</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>";}i:6;O:8:"stdClass":18:{s:2:"id";s:1:"4";s:2:"cm";s:1:"6";s:3:"mod";s:5:"label";s:7:"section";s:1:"1";s:13:"sectionnumber";s:1:"1";s:9:"sectionid";s:1:"8";s:6:"module";s:2:"13";s:5:"added";s:10:"1733064876";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";s:0:"";s:4:"name";s:16:"Objetivo da Aula";s:7:"content";s:148:"<div class="no-overflow"><p><strong>Objetivo da Aula:</strong></p>
+<p>Entender como a internet surgiu, evoluiu e impacta o mundo moderno.</p></div>";}i:7;O:8:"stdClass":17:{s:2:"id";s:1:"5";s:2:"cm";s:1:"7";s:3:"mod";s:5:"label";s:7:"section";s:1:"1";s:13:"sectionnumber";s:1:"1";s:9:"sectionid";s:1:"8";s:6:"module";s:2:"13";s:5:"added";s:10:"1733064934";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";s:0:"";s:4:"name";s:6:"Aula 1";s:7:"content";s:6043:"<div class="no-overflow"><h4><strong>Introdução</strong></h4>
+<p>A internet é uma das invenções mais transformadoras da história da humanidade. Ela mudou a forma como vivemos, trabalhamos, nos comunicamos e até como pensamos. Para entender plenamente como ela funciona e sua importância, precisamos explorar suas origens, evolução e impacto no mundo moderno. Vamos começar!</p>
+<hr>
+<h3><strong>1.1 - A Origem da Internet</strong></h3>
+<p>A história da internet começa na década de 1960, em um contexto de intensa rivalidade política e tecnológica entre os Estados Unidos e a União Soviética, durante a Guerra Fria. Na época, o Departamento de Defesa dos Estados Unidos queria criar um sistema de comunicação robusto e descentralizado que pudesse continuar funcionando mesmo após um possível ataque nuclear.</p>
+<h5><strong>A criação da ARPANET</strong></h5>
+<p>Foi assim que surgiu a ARPANET, a primeira rede de computadores, desenvolvida pela agência americana ARPA (Advanced Research Projects Agency).</p>
+<ul>
+<li><strong>Primeira conexão (1969):</strong> Dois computadores, um na Universidade da Califórnia (UCLA) e outro no Instituto de Pesquisa de Stanford, trocaram mensagens pela primeira vez.</li>
+<li><strong>Mensagem histórica:</strong> A primeira palavra transmitida foi "LO". Era para ser "LOGIN", mas o sistema travou após as duas primeiras letras.</li>
+</ul>
+<p>Esse momento foi o ponto de partida para a comunicação digital como a conhecemos hoje.</p>
+<h5><strong>Expansão Acadêmica e Científica</strong></h5>
+<p>Nos anos 70, a ARPANET começou a conectar universidades e centros de pesquisa, permitindo que cientistas trocassem informações rapidamente. Essa colaboração foi essencial para o desenvolvimento inicial da internet.</p>
+<hr>
+<h3><strong>1.2 - A Evolução da Internet</strong></h3>
+<p>Nos anos 80, a internet começou a tomar forma como uma rede global graças à padronização de protocolos e ao avanço tecnológico.</p>
+<h5><strong>Protocolo TCP/IP (1983):</strong></h5>
+<p>Um dos marcos mais importantes foi a adoção do protocolo TCP/IP, que permitiu que diferentes redes pudessem "falar a mesma língua". Pense no TCP/IP como uma linguagem universal que permite a troca de dados entre computadores, independentemente de onde estejam no mundo.</p>
+<h5><strong>O nascimento da World Wide Web (WWW):</strong></h5>
+<p>A grande revolução veio em 1989, quando Tim Berners-Lee, um cientista do CERN, criou a <strong>World Wide Web (WWW)</strong>. Sua invenção tornou a internet acessível e utilizável para o público em geral. Ele desenvolveu:</p>
+<ol>
+<li><strong>HTML:</strong> Uma linguagem para criar páginas web.</li>
+<li><strong>HTTP:</strong> O protocolo para acessar essas páginas.</li>
+<li><strong>URL:</strong> Um endereço único para cada página.</li>
+</ol>
+<p>Em 1993, o navegador Mosaic tornou possível visualizar páginas web de forma amigável. Antes disso, navegar pela internet era algo técnico e pouco intuitivo. O Mosaic foi o precursor de navegadores como Chrome, Firefox e Edge.</p>
+<h5><strong>Internet Comercial e Popularização:</strong></h5>
+<p>Nos anos 90, a internet deixou de ser um recurso exclusivamente acadêmico e militar para se tornar comercial. Provedores de internet começaram a surgir, oferecendo conexões ao público. Em 1995, empresas como a Amazon e o eBay foram fundadas, mostrando o potencial do comércio eletrônico.</p>
+<hr>
+<h3><strong>1.3 - Impactos no Mundo Moderno</strong></h3>
+<p>Hoje, a internet conecta bilhões de dispositivos e pessoas em todo o mundo. Sua influência é tão profunda que praticamente todas as áreas da vida moderna dependem dela.</p>
+<h5><strong>Comunicações:</strong></h5>
+<ul>
+<li>E-mails substituíram cartas e faxes como meio principal de comunicação escrita.</li>
+<li>Redes sociais, como Facebook, Instagram e WhatsApp, conectam pessoas de formas antes inimagináveis.</li>
+</ul>
+<h5><strong>Economia e Trabalho:</strong></h5>
+<ul>
+<li>A internet criou novas profissões, como desenvolvedores, analistas de marketing digital e influenciadores.</li>
+<li>O e-commerce permite que pessoas comprem e vendam produtos globalmente sem sair de casa.</li>
+</ul>
+<h5><strong>Educação:</strong></h5>
+<ul>
+<li>Plataformas como YouTube, Coursera e Khan Academy democratizaram o acesso ao conhecimento.</li>
+<li>Durante a pandemia de COVID-19, o ensino a distância mostrou como a internet é crucial para a continuidade da educação.</li>
+</ul>
+<h5><strong>Internet das Coisas (IoT):</strong></h5>
+<ul>
+<li>Hoje, até geladeiras, carros e assistentes virtuais (como Alexa e Google Assistant) estão conectados à internet, permitindo automação e maior eficiência.</li>
+</ul>
+<hr>
+<h3><strong>Atividade Prática: Linha do Tempo da Internet</strong></h3>
+<p>Agora que você entende os principais marcos da história da internet, é hora de consolidar esse conhecimento. Siga os passos abaixo:</p>
+<ol>
+<li>Pesquise e escolha <strong>cinco eventos importantes</strong> na história da internet (por exemplo, a criação da ARPANET, o lançamento do Mosaic, o surgimento do Google, etc.).</li>
+<li>Crie uma <strong>linha do tempo</strong> com esses eventos, incluindo o ano e uma breve descrição de cada um.
+<ul>
+<li>Você pode usar ferramentas online, como o Canva, ou fazer manualmente em papel.</li>
+</ul>
+</li>
+<li>Compartilhe sua linha do tempo com os colegas (se for em um curso presencial) ou envie no fórum (se o curso for online).</li>
+</ol>
+<hr>
+<h3><strong>Resumo da Aula</strong></h3>
+<p>Nesta aula, exploramos como a internet começou, como evoluiu e por que é tão fundamental no mundo moderno. Desde a ARPANET até a Internet das Coisas, vimos como a internet mudou nossa maneira de viver e interagir.</p>
+<p><strong>Próxima Aula:</strong> Vamos mergulhar no funcionamento técnico da internet: como os computadores se comunicam, o que são endereços IP e como acessamos sites. Até lá!</p></div>";}i:5;O:8:"stdClass":18:{s:2:"id";s:1:"3";s:2:"cm";s:1:"5";s:3:"mod";s:5:"label";s:7:"section";s:1:"1";s:13:"sectionnumber";s:1:"1";s:9:"sectionid";s:1:"8";s:6:"module";s:2:"13";s:5:"added";s:10:"1733064860";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";s:0:"";s:4:"name";s:42:"Aula 1: História e Evolução da Internet";s:7:"content";s:718:"<div class="no-overflow"><h3><strong>1.1 - A Origem da Internet</strong></h3>
+<p>A internet nasceu na década de 1960, durante a Guerra Fria, quando os Estados Unidos precisavam de uma maneira de conectar computadores para garantir a troca de informações em caso de um ataque. Foi assim que surgiu a <strong>ARPANET</strong>, o embrião da internet.</p>
+<ul>
+<li><strong>1969:</strong> Primeira conexão bem-sucedida entre dois computadores.</li>
+<li><strong>1980:</strong> Introdução do protocolo TCP/IP, que ainda hoje é a base da comunicação na internet.</li>
+</ul>
+<p>Imagine que, na época, a internet era usada apenas por militares e pesquisadores. Era algo limitado e sem fins comerciais.</p></div>";}i:8;O:8:"stdClass":18:{s:2:"id";s:1:"6";s:2:"cm";s:1:"8";s:3:"mod";s:5:"label";s:7:"section";s:1:"1";s:13:"sectionnumber";s:1:"1";s:9:"sectionid";s:1:"8";s:6:"module";s:2:"13";s:5:"added";s:10:"1733064970";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";s:0:"";s:4:"name";s:30:"1.3 - Impacto no Mundo Moderno";s:7:"content";s:653:"<div class="no-overflow"><h3><strong>1.3 - Impacto no Mundo Moderno</strong></h3>
+<ul>
+<li><strong>Comunicações:</strong> Revolução nas mensagens (e-mails, WhatsApp) e redes sociais.</li>
+<li><strong>Economia:</strong> A internet criou novos mercados e profissões, como programadores e analistas de marketing digital.</li>
+<li><strong>IoT:</strong> A Internet das Coisas conecta dispositivos, como casas inteligentes.</li>
+</ul>
+<p><strong>Atividade Prática:</strong><br>Faça uma pesquisa sobre a história da internet e crie uma linha do tempo com 5 eventos importantes. Você pode usar papel ou ferramentas online, como o Canva.</p></div>";}i:9;O:8:"stdClass":17:{s:2:"id";s:1:"7";s:2:"cm";s:1:"9";s:3:"mod";s:5:"label";s:7:"section";s:1:"1";s:13:"sectionnumber";s:1:"1";s:9:"sectionid";s:1:"8";s:6:"module";s:2:"13";s:5:"added";s:10:"1733065430";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";s:0:"";s:4:"name";s:6:"Aula 2";s:7:"content";s:7672:"<div class="no-overflow"><div class="flex-shrink-0 flex flex-col relative items-end">
+<div>
+<div class="pt-0">
+<div class="gizmo-bot-avatar flex h-8 w-8 items-center justify-center overflow-hidden rounded-full">
+<div class="relative p-1 rounded-sm flex items-center justify-center bg-token-main-surface-primary text-token-text-primary h-8 w-8"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn">
+<div class="flex-col gap-1 md:gap-3">
+<div class="flex max-w-full flex-col flex-grow">
+<div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="daad6872-eb1c-4ff4-8ce5-39aafb15fe84" data-message-model-slug="gpt-4o">
+<div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<h3><strong>Curso: Fundamentos da Internet e Programação Básica</strong></h3>
+<p><strong>Módulo 1: Fundamentos da Internet</strong><br><strong>Aula 2: Como a Internet Funciona</strong></p>
+<hr>
+<h4><strong>Introdução</strong></h4>
+<p>Agora que sabemos como a internet surgiu e evoluiu, é hora de entender como ela realmente funciona. Vamos explorar os conceitos técnicos que fazem essa rede global operar, como endereços IP, DNS e protocolos de comunicação. Embora pareçam termos complicados, você verá que são como peças de um quebra-cabeça que se encaixam perfeitamente.</p>
+<hr>
+<h3><strong>2.1 - Redes de Computadores: A Base da Internet</strong></h3>
+<p>A internet nada mais é do que uma enorme <strong>rede de redes</strong>, ou seja, um sistema global que conecta computadores e dispositivos para compartilhar informações. Mas como isso funciona na prática?</p>
+<h4><strong>O Que É Uma Rede de Computadores?</strong></h4>
+<p>Uma rede de computadores conecta dois ou mais dispositivos para que eles possam trocar dados.</p>
+<ul>
+<li><strong>Rede Local (LAN):</strong> Usada em casas e escritórios para conectar poucos dispositivos.</li>
+<li><strong>Rede Global (WAN):</strong> A internet é uma rede WAN que conecta milhões de redes locais.</li>
+</ul>
+<p>Imagine que cada computador conectado à internet é como uma casa em uma cidade gigantesca, onde cada casa tem um endereço único (o endereço IP) para que as informações cheguem ao destino certo.</p>
+<hr>
+<h3><strong>2.2 - Endereço IP: O RG dos Dispositivos na Internet</strong></h3>
+<p>Um endereço IP (Internet Protocol) é um número único atribuído a cada dispositivo conectado à internet.</p>
+<ul>
+<li>Exemplo de um endereço IP: <code>192.168.1.1</code>.</li>
+</ul>
+<p>Existem dois tipos principais de IP:</p>
+<ol>
+<li><strong>IPv4:</strong> Mais antigo e composto por 4 grupos de números (ex.: 192.168.0.1). Ele suporta cerca de 4 bilhões de endereços, mas já está ficando insuficiente.</li>
+<li><strong>IPv6:</strong> Mais recente e projetado para suportar um número quase infinito de dispositivos (ex.: 2001:0db8:85a3:0000:0000:8a2e:0370:7334).</li>
+</ol>
+<h4><strong>Por que o IP é importante?</strong></h4>
+<p>Quando você acessa um site, o endereço IP do site é usado para identificar o servidor onde ele está hospedado. O seu computador também tem um IP para receber a resposta.</p>
+<hr>
+<h3><strong>2.3 - DNS: O Catálogo Telefônico da Internet</strong></h3>
+<p>Embora os endereços IP sejam úteis para máquinas, eles são difíceis de lembrar para humanos. É aqui que entra o <strong>DNS (Domain Name System)</strong>. Ele funciona como um catálogo telefônico que traduz nomes de domínio (como <code>www.google.com</code>) em endereços IP.</p>
+<h4><strong>Como o DNS Funciona?</strong></h4>
+<ol>
+<li>Você digita um endereço no navegador, como <code>www.google.com</code>.</li>
+<li>O computador envia essa solicitação para um servidor DNS.</li>
+<li>O servidor DNS encontra o IP correspondente (ex.: <code>142.250.74.46</code>) e envia de volta ao computador.</li>
+<li>Com o IP, o navegador consegue acessar o servidor onde o site está armazenado.</li>
+</ol>
+<p><strong>Exemplo prático:</strong><br>Se o DNS não existisse, você teria que digitar <code>142.250.74.46</code> para acessar o Google. Bem menos prático, certo?</p>
+<hr>
+<h3><strong>2.4 - Protocolos: As Regras de Comunicação da Internet</strong></h3>
+<p>Para que os computadores na internet consigam "conversar", eles seguem um conjunto de regras chamado <strong>protocolos</strong>. Vamos conhecer os mais importantes:</p>
+<h4><strong>HTTP e HTTPS</strong></h4>
+<ul>
+<li><strong>HTTP (HyperText Transfer Protocol):</strong> É o protocolo usado para transferir informações da web para o navegador.</li>
+<li><strong>HTTPS:</strong> É uma versão segura do HTTP, que usa criptografia para proteger os dados.</li>
+</ul>
+<p>Sempre prefira sites com HTTPS, especialmente ao inserir informações sensíveis, como senhas ou dados de cartão de crédito.</p>
+<h4><strong>TCP/IP</strong></h4>
+<ul>
+<li><strong>TCP (Transmission Control Protocol):</strong> Garante que os dados sejam entregues corretamente, dividindo as informações em pequenos pacotes.</li>
+<li><strong>IP:</strong> Garante que esses pacotes cheguem ao destino certo.</li>
+</ul>
+<p>Imagine o TCP/IP como um serviço de entrega de cartas: o TCP divide a mensagem em várias partes (envelopes), enquanto o IP cuida de enviá-las ao endereço correto.</p>
+<hr>
+<h3><strong>2.5 - Navegadores: Como Acessamos a Web</strong></h3>
+<p>O navegador (como Chrome, Firefox ou Edge) é o software que permite acessar a web.</p>
+<ul>
+<li>Ele interpreta os códigos (HTML, CSS, JavaScript) enviados pelos servidores e os transforma em páginas visíveis e interativas.</li>
+<li>Também é responsável por lidar com cookies e proteger sua navegação contra ameaças.</li>
+</ul>
+<hr>
+<h3><strong>Atividade Prática: Testando o Funcionamento da Internet</strong></h3>
+<h4><strong>Parte 1: Usando o Ping</strong></h4>
+<p>O comando <code>ping</code> é usado para testar a conexão com um site. Ele mostra o tempo que um pacote de dados leva para ir e voltar do servidor.</p>
+<ol>
+<li>Abra o <strong>Prompt de Comando</strong> (Windows) ou o <strong>Terminal</strong> (Mac/Linux).</li>
+<li>Digite: <code>ping google.com</code>.</li>
+<li>Observe o resultado:
+<ul>
+<li>O endereço IP do Google será exibido.</li>
+<li>O tempo de resposta (em milissegundos) indica a velocidade da conexão.</li>
+</ul>
+</li>
+</ol>
+<h4><strong>Parte 2: Explorando o DNS</strong></h4>
+<p>Acesse o site <a href="https://dnschecker.org/" target="_new" rel="noopener">https://dnschecker.org/</a>.</p>
+<ol>
+<li>Digite um domínio (como <code>google.com</code>).</li>
+<li>Veja os diferentes endereços IP associados ao site em servidores DNS ao redor do mundo.</li>
+</ol>
+<hr>
+<h3><strong>Resumo da Aula</strong></h3>
+<p>Nesta aula, aprendemos:</p>
+<ul>
+<li>O que são redes de computadores e como elas formam a base da internet.</li>
+<li>O papel dos endereços IP como identificadores únicos de dispositivos.</li>
+<li>Como o DNS traduz nomes de domínio para IPs.</li>
+<li>Os protocolos que garantem a comunicação, como HTTP, HTTPS e TCP/IP.</li>
+<li>O funcionamento dos navegadores para interpretar e exibir páginas da web.</li>
+</ul>
+<p><strong>Próxima Aula:</strong> Vamos mergulhar no tema de <strong>segurança online</strong> e aprender como proteger nossas informações enquanto navegamos na internet. Até lá! 🎓</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>";}i:10;O:8:"stdClass":17:{s:2:"id";s:1:"8";s:2:"cm";s:2:"10";s:3:"mod";s:5:"label";s:7:"section";s:1:"1";s:13:"sectionnumber";s:1:"1";s:9:"sectionid";s:1:"8";s:6:"module";s:2:"13";s:5:"added";s:10:"1733065746";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";s:0:"";s:4:"name";s:6:"Aula 3";s:7:"content";s:6591:"<div class="no-overflow"><h4><strong>Introdução</strong></h4>
+<p>A internet é uma ferramenta poderosa, mas também apresenta riscos. Hackers, malware e ataques de phishing são apenas alguns dos perigos que enfrentamos. Nesta aula, você aprenderá como proteger seus dados e dispositivos, bem como as melhores práticas para navegar com segurança.</p>
+<hr>
+<h3><strong>3.1 - Principais Ameaças na Internet</strong></h3>
+<p>Antes de falarmos sobre proteção, é importante conhecer os principais riscos enfrentados pelos usuários da internet.</p>
+<h4><strong>1. Malware (Software Malicioso):</strong></h4>
+<p>Malware é um software criado para causar danos. Ele pode assumir diversas formas, como:</p>
+<ul>
+<li><strong>Vírus:</strong> Programas que infectam outros arquivos e se espalham.</li>
+<li><strong>Ransomware:</strong> Bloqueia o acesso ao dispositivo ou arquivos e exige um pagamento para liberá-los.</li>
+<li><strong>Spyware:</strong> Coleta informações do usuário sem consentimento.</li>
+</ul>
+<h4><strong>2. Phishing:</strong></h4>
+<p>Golpes que tentam enganar o usuário para roubar informações sensíveis, como senhas e dados bancários.</p>
+<ul>
+<li>Exemplos comuns: E-mails falsos imitando bancos ou lojas conhecidas, pedindo que você clique em um link ou insira dados pessoais.</li>
+</ul>
+<h4><strong>3. Ataques de Engenharia Social:</strong></h4>
+<p>São tentativas de manipular pessoas para que forneçam informações ou acesso.</p>
+<ul>
+<li>Exemplo: Alguém fingindo ser um técnico de suporte e pedindo sua senha.</li>
+</ul>
+<h4><strong>4. Roubo de Identidade:</strong></h4>
+<p>Quando informações pessoais são roubadas para realizar fraudes, como abrir contas bancárias ou fazer compras no nome da vítima.</p>
+<hr>
+<h3><strong>3.2 - Boas Práticas para Proteger Seus Dados</strong></h3>
+<p>Agora que você conhece os perigos, aqui estão as melhores práticas para manter seus dados seguros.</p>
+<h4><strong>1. Use Senhas Fortes e Gerenciadores de Senhas</strong></h4>
+<ul>
+<li>
+<p><strong>O que é uma senha forte?</strong></p>
+<ul>
+<li>Pelo menos 12 caracteres.</li>
+<li>Combinação de letras maiúsculas, minúsculas, números e símbolos.</li>
+<li>Evite informações óbvias, como datas de nascimento.</li>
+</ul>
+</li>
+<li>
+<p><strong>Dica prática:</strong><br>Use um gerenciador de senhas (como LastPass ou 1Password) para criar e armazenar senhas seguras.</p>
+</li>
+</ul>
+<h4><strong>2. Ative a Autenticação em Dois Fatores (2FA)</strong></h4>
+<p>A autenticação em dois fatores adiciona uma camada extra de segurança, exigindo um código adicional enviado ao seu celular ou e-mail.</p>
+<ul>
+<li><strong>Exemplo:</strong> Mesmo se alguém descobrir sua senha, ainda precisará do código 2FA para acessar sua conta.</li>
+</ul>
+<h4><strong>3. Mantenha Softwares e Sistemas Atualizados</strong></h4>
+<p>Atualizações corrigem falhas de segurança que podem ser exploradas por hackers.</p>
+<ul>
+<li><strong>Dica:</strong> Ative as atualizações automáticas no sistema operacional e em aplicativos importantes.</li>
+</ul>
+<h4><strong>4. Cuidado com Links e E-mails Suspeitos</strong></h4>
+<ul>
+<li>Verifique sempre o remetente de e-mails antes de clicar em links.</li>
+<li>Evite baixar anexos de remetentes desconhecidos.</li>
+</ul>
+<h4><strong>5. Use Redes Wi-Fi com Cuidado</strong></h4>
+<ul>
+<li>Evite usar redes Wi-Fi públicas para acessar informações sensíveis.</li>
+<li>Se necessário, use uma VPN (Virtual Private Network) para proteger sua conexão.</li>
+</ul>
+<hr>
+<h3><strong>3.3 - Ferramentas de Proteção</strong></h3>
+<p>Além de boas práticas, ferramentas específicas podem ajudar a proteger sua navegação.</p>
+<h4><strong>1. Antivírus:</strong></h4>
+<p>Programas como Avast, Norton e Bitdefender oferecem proteção contra malware e outras ameaças.</p>
+<ul>
+<li>Dica: Certifique-se de que o antivírus esteja sempre atualizado.</li>
+</ul>
+<h4><strong>2. Firewalls:</strong></h4>
+<p>Um firewall monitora e controla o tráfego de rede, impedindo acessos não autorizados.</p>
+<ul>
+<li>Sistemas operacionais modernos, como Windows e macOS, já possuem firewalls integrados.</li>
+</ul>
+<h4><strong>3. Extensões de Navegador:</strong></h4>
+<p>Adicione extensões de segurança ao navegador, como:</p>
+<ul>
+<li><strong>HTTPS Everywhere:</strong> Garante que você esteja usando conexões seguras.</li>
+<li><strong>AdBlocker:</strong> Bloqueia anúncios que podem conter malware.</li>
+</ul>
+<hr>
+<h3><strong>3.4 - Boas Práticas em Redes Sociais</strong></h3>
+<p>As redes sociais podem ser um alvo fácil para hackers. Veja como usá-las com segurança:</p>
+<ul>
+<li><strong>Privacidade:</strong> Ajuste as configurações para limitar quem pode ver suas informações.</li>
+<li><strong>Cuidado com compartilhamentos:</strong> Evite postar informações sensíveis, como endereço ou localização.</li>
+<li><strong>Desconfie de mensagens suspeitas:</strong> Muitos golpes usam mensagens privadas para enganar os usuários.</li>
+</ul>
+<hr>
+<h3><strong>Atividade Prática: Teste de Segurança Online</strong></h3>
+<ol>
+<li>
+<p><strong>Teste Suas Senhas:</strong><br>Use ferramentas online, como o site <a href="https://haveibeenpwned.com/" target="_new" rel="noopener">https://haveibeenpwned.com/</a>, para verificar se suas senhas já foram vazadas.</p>
+</li>
+<li>
+<p><strong>Atualize Suas Configurações de Privacidade:</strong></p>
+<ul>
+<li>Acesse as configurações de privacidade nas redes sociais que você usa.</li>
+<li>Ajuste quem pode ver suas postagens e informações pessoais.</li>
+</ul>
+</li>
+<li>
+<p><strong>Simule um Ataque de Phishing:</strong></p>
+<ul>
+<li>Pesquise exemplos de e-mails de phishing na internet.</li>
+<li>Identifique os sinais de que são falsos (erros de ortografia, remetentes estranhos, links suspeitos).</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>Resumo da Aula</strong></h3>
+<p>Nesta aula, você aprendeu:</p>
+<ul>
+<li>As principais ameaças da internet, como malware, phishing e roubo de identidade.</li>
+<li>Boas práticas para proteger seus dados, incluindo o uso de senhas fortes e autenticação em dois fatores.</li>
+<li>Ferramentas de proteção, como antivírus e firewalls.</li>
+<li>Como navegar com segurança em redes sociais.</li>
+</ul>
+<p><strong>Próxima Aula:</strong> Vamos explorar como a internet é usada no dia a dia, abordando ferramentas de colaboração online, serviços de armazenamento na nuvem e comunicação digital. Até lá!</p></div>";}}s:12:"sectioncache";a:7:{i:7;O:8:"stdClass":6:{s:2:"id";s:1:"7";s:7:"section";s:1:"0";s:4:"name";N;s:12:"availability";N;s:9:"component";N;s:6:"itemid";N;}i:8;O:8:"stdClass":6:{s:2:"id";s:1:"8";s:7:"section";s:1:"1";s:4:"name";s:34:"Módulo 1: Fundamentos da Internet";s:12:"availability";N;s:9:"component";N;s:6:"itemid";N;}i:9;O:8:"stdClass":6:{s:2:"id";s:1:"9";s:7:"section";s:1:"2";s:4:"name";N;s:12:"availability";N;s:9:"component";N;s:6:"itemid";N;}i:10;O:8:"stdClass":6:{s:2:"id";s:2:"10";s:7:"section";s:1:"3";s:4:"name";N;s:12:"availability";N;s:9:"component";N;s:6:"itemid";N;}i:11;O:8:"stdClass":6:{s:2:"id";s:2:"11";s:7:"section";s:1:"4";s:4:"name";N;s:12:"availability";N;s:9:"component";N;s:6:"itemid";N;}i:12;O:8:"stdClass":6:{s:2:"id";s:2:"12";s:7:"section";s:1:"5";s:4:"name";N;s:12:"availability";N;s:9:"component";N;s:6:"itemid";N;}i:13;O:8:"stdClass":6:{s:2:"id";s:2:"13";s:7:"section";s:1:"6";s:4:"name";N;s:12:"availability";N;s:9:"component";N;s:6:"itemid";N;}}s:9:"shortname";s:32:"Internet e programação básica";s:8:"fullname";s:47:"Fundamentos da internet e programação básica";s:6:"format";s:6:"topics";s:16:"enablecompletion";s:1:"1";s:9:"groupmode";s:1:"0";s:14:"groupmodeforce";s:1:"0";s:8:"cacherev";s:10:"1733272279";}s:7:"version";i:1733272279;}

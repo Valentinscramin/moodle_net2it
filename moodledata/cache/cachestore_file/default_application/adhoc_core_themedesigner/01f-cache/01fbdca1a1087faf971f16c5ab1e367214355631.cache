@@ -1,0 +1,99 @@
+a:2:{s:4:"data";s:5217:"/** Path: theme  initial.' **/
+:root {
+    --color_primary:   43,78,132   !important;
+    --color_secondary: 62,101,160 !important;
+    --color_buttons:   24,48,84   !important;
+    --color_names:     192,204,220     !important;
+    --color_titles:    232,240,251    !important;
+}@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --color_primary: 43, 78, 132;
+    --color_secondary: 62, 101, 160;
+    --color_buttons: 24, 48, 84;
+    --color_names: 192, 204, 220;
+    --color_titles: 232, 240, 251;
+
+    --color_white_8: 247, 247, 247;
+    --color_white_26: 229, 229, 229;
+    --color_white_43: 212, 212, 212;
+    --color_white_66: 189, 189, 189;
+    --color_white_102: 153, 153, 153;
+    --color_white_171: 84, 82, 81;
+    --color_white_138: 117, 117, 117;
+    --color_white_206: 49, 49, 49;
+    --color_pink: 255, 255, 2213;
+    --color_green_7: 214, 248, 205;
+    --color_yelow: 254, 231, 174;
+    --color_blue_8: 217, 237, 247;
+    --color_blue_14: 188, 232, 241;
+    --color_blue_17: 85, 172, 238;
+    --color_blue_25: 222, 226, 230;
+    --color_blue_49: 220, 231, 236;
+    --color_blue_59: 177, 187, 196;
+    --color_blue_82: 58, 135, 173;
+    --color_blue_86: 74, 110, 169;
+    --color_red_43: 212, 65, 50;
+    --color_red_66: 189, 8, 28;
+}
+
+.course-box{
+max-width: 28rem !important;
+}
+.ff_one{
+max-width: 15rem !important;
+}
+            #header.fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.fixed-top .navbar-nav .nav-link.active,
+            #header.fixed-top .header-logo a.navbar-brand img,
+            #header.fixed-top .header-logo a.navbar-brand span,
+            #header.fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.fixed-top {
+                background: #5c5d5f !important;
+            }
+
+            #header.ever-fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.ever-fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.ever-fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.ever-fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.ever-fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.ever-fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.active,
+            #header.ever-fixed-top .header-logo a.navbar-brand img,
+            #header.ever-fixed-top .header-logo a.navbar-brand span,
+            #header.ever-fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.ever-fixed-top .custom-switch .custom-control-label:after{
+                background: #ffffff !important;
+            }
+            #header.ever-fixed-top {
+                background: #5c5d5f !important;
+            }
+body,* {font-family:Roboto, Arial, Helvetica, sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:Montserrat, Arial, Helvetica, sans-serif}
+.header-logo a.navbar-brand span {font-family:Oswald, Arial, Helvetica, sans-serif}
+.header-menubar .primary-navigation ul.navbar-nav li a,
+            .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light .navbar-nav .show>.nav-link,
+            .navbar-light .navbar-nav .active>.nav-link,
+            .navbar-light .navbar-nav .nav-link.show,
+            .navbar-light .navbar-nav .nav-link.active,
+            .header-logo a.navbar-brand img {
+                font-family : Roboto, Arial, Helvetica, sans-serif
+            }
+
+
+";s:7:"created";i:1733501943;}

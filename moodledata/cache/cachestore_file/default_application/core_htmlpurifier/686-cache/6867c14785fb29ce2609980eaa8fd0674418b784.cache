@@ -1,0 +1,146 @@
+s:4193:"<p>Este curso introdutório oferece uma base sólida sobre os conceitos fundamentais da internet e programação, proporcionando aos alunos as habilidades essenciais para navegar no ambiente digital e iniciar o aprendizado em desenvolvimento de software.</p>
+<hr />
+<h3><strong>Módulo 1: Fundamentos da Internet</strong></h3>
+<ol>
+<li>
+<p><strong>História e Evolução da Internet</strong></p>
+<ul>
+<li>Origem da internet e principais marcos históricos</li>
+<li>Como a internet transformou o mundo moderno</li>
+</ul>
+</li>
+<li>
+<p><strong>Como a Internet Funciona</strong></p>
+<ul>
+<li>Conceitos básicos de redes (IP, DNS, HTTP, HTTPS)</li>
+<li>Funcionamento de navegadores e servidores</li>
+</ul>
+</li>
+<li>
+<p><strong>Segurança Online</strong></p>
+<ul>
+<li>Noções de privacidade e proteção de dados</li>
+<li>Boas práticas para uma navegação segura</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3><strong>Módulo 2: Introdução à Programação</strong></h3>
+<ol>
+<li>
+<p><strong>Conceitos Básicos de Programação</strong></p>
+<ul>
+<li>O que é programação?</li>
+<li>Linguagens de programação: principais diferenças e aplicações</li>
+</ul>
+</li>
+<li>
+<p><strong>Lógica de Programação</strong></p>
+<ul>
+<li>Estruturas básicas: sequência, decisão e repetição</li>
+<li>Algoritmos: como criar soluções para problemas simples</li>
+</ul>
+</li>
+<li>
+<p><strong>Introdução ao Ambiente de Desenvolvimento</strong></p>
+<ul>
+<li>Configuração de ambiente de trabalho (IDE, editores de texto, terminais)</li>
+<li>Ferramentas e recursos iniciais</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3><strong>Módulo 3: Primeiros Passos com HTML e CSS</strong></h3>
+<ol>
+<li>
+<p><strong>HTML Básico</strong></p>
+<ul>
+<li>Estrutura de um documento HTML</li>
+<li>Elementos e tags principais</li>
+</ul>
+</li>
+<li>
+<p><strong>CSS Básico</strong></p>
+<ul>
+<li>Conceitos de estilos e design na web</li>
+<li>Como aplicar cores, fontes e layouts básicos</li>
+</ul>
+</li>
+<li>
+<p><strong>Criação de uma Página Web Simples</strong></p>
+<ul>
+<li>Integração de HTML e CSS</li>
+<li>Publicação da página no ambiente local</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3><strong>Módulo 4: Primeiros Passos com Lógica e Código</strong></h3>
+<ol>
+<li>
+<p><strong>Introdução ao JavaScript</strong></p>
+<ul>
+<li>Sintaxe básica e primeiros comandos</li>
+<li>Manipulação de elementos na página web</li>
+</ul>
+</li>
+<li>
+<p><strong>Variáveis, Funções e Condicionais</strong></p>
+<ul>
+<li>Trabalhando com dados e lógica no JavaScript</li>
+<li>Aplicações práticas</li>
+</ul>
+</li>
+<li>
+<p><strong>Exercícios Práticos</strong></p>
+<ul>
+<li>Criando uma interação simples na página web</li>
+<li>Implementação de funcionalidades básicas</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3><strong>Módulo 5: Introdução ao Pensamento Computacional</strong></h3>
+<ol>
+<li>
+<p><strong>O que é Pensamento Computacional?</strong></p>
+<ul>
+<li>Divisão de problemas complexos em partes menores</li>
+<li>Reconhecimento de padrões e automação de tarefas</li>
+</ul>
+</li>
+<li>
+<p><strong>Algoritmos e Fluxogramas</strong></p>
+<ul>
+<li>Estruturando ideias de forma lógica</li>
+<li>Como usar fluxogramas para visualizar soluções</li>
+</ul>
+</li>
+<li>
+<p><strong>Resolução de Problemas com Programação Básica</strong></p>
+<ul>
+<li>Aplicação de conceitos em problemas reais</li>
+<li>Projeto final simples</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3><strong>Conclusão e Projeto Final</strong></h3>
+<ol>
+<li>
+<p><strong>Desenvolvimento de um Projeto Final Prático</strong></p>
+<ul>
+<li>Criação de uma página interativa com HTML, CSS e JavaScript</li>
+<li>Apresentação e feedback do projeto</li>
+</ul>
+</li>
+<li>
+<p><strong>Certificação e Próximos Passos</strong></p>
+<ul>
+<li>Certificado de conclusão do curso</li>
+<li>Recomendações de estudos avançados e áreas de especialização</li>
+</ul>
+</li>
+</ol>
+<hr />
+<p><strong>Carga Horária Total</strong>: 40 horas<br /><strong>Público-Alvo</strong>: Iniciantes interessados em aprender sobre internet e programação básica.</p>";

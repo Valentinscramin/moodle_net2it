@@ -1,0 +1,11 @@
+s:783:"<p>Os resultados de uma atividade SCORM/AICC mostrada nas Páginas de Avaliação podem ser calculados em vários modos:</p>
+
+<pre><code>&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Estado dos SCOes&lt;/b&gt;&lt;br /&gt;Este modo apresenta o número de SCOes concluídos na atividade. O valor máximo é o número de SCOes.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Nota mais alta&lt;/b&gt;&lt;br /&gt;A página de Avaliação irá mostrar o maior resultado obtido pelos usuários em todos os SCOes concluídos.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Média das Notas&lt;/b&gt;&lt;br /&gt;Caso você escolha este modo, o será calculada a média de todos os resultados.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Soma de notas&lt;/b&gt;&lt;br /&gt;Com este modo todos os resultados serão somados.&lt;/li&gt;
+</code></pre>
+
+<p></p>
+";

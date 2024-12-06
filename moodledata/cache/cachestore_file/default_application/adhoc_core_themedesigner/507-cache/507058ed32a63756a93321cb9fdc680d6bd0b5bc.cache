@@ -1,0 +1,111 @@
+a:2:{s:4:"data";s:5077:"/** Path: plugin mod_survey .' **/
+:root {
+    --color_primary:   43,78,132   !important;
+    --color_secondary: 62,101,160 !important;
+    --color_buttons:   24,48,84   !important;
+    --color_names:     192,204,220     !important;
+    --color_titles:    232,240,251    !important;
+}@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.path-mod-survey .smalltext {
+    font-size: 0.75em;
+}
+
+.path-mod-survey .surveytable .rblock label {
+    display: block;
+}
+
+.path-mod-survey .surveytable .foundthat,
+.path-mod-survey .surveytable .preferthat {
+    white-space: nowrap;
+}
+
+.path-mod-survey .surveytable .buttoncell {
+    width: 5%;
+}
+
+.path-mod-survey .surveytable .optioncell,
+.path-mod-survey .surveytable .questioncell {
+    width: 50%;
+    vertical-align: top;
+}
+
+.path-mod-survey .surveytable .whitecell {
+    background-color: white;
+}
+
+.path-mod-survey #surveyform th {
+    font-weight: normal;
+    text-align: left;
+}
+
+.path-mod-survey #surveyform th.hresponse {
+    text-align: center;
+    width: 9%;
+}
+
+#page-mod-survey-report .fullnamecell {
+    width: 10%;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.course-box{
+max-width: 28rem !important;
+}
+.ff_one{
+max-width: 15rem !important;
+}
+            #header.fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.fixed-top .navbar-nav .nav-link.active,
+            #header.fixed-top .header-logo a.navbar-brand img,
+            #header.fixed-top .header-logo a.navbar-brand span,
+            #header.fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.fixed-top {
+                background: #5c5d5f !important;
+            }
+
+            #header.ever-fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.ever-fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.ever-fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.ever-fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.ever-fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.ever-fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.active,
+            #header.ever-fixed-top .header-logo a.navbar-brand img,
+            #header.ever-fixed-top .header-logo a.navbar-brand span,
+            #header.ever-fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.ever-fixed-top .custom-switch .custom-control-label:after{
+                background: #ffffff !important;
+            }
+            #header.ever-fixed-top {
+                background: #5c5d5f !important;
+            }
+body,* {font-family:Roboto, Arial, Helvetica, sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:Montserrat, Arial, Helvetica, sans-serif}
+.header-logo a.navbar-brand span {font-family:Oswald, Arial, Helvetica, sans-serif}
+.header-menubar .primary-navigation ul.navbar-nav li a,
+            .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light .navbar-nav .show>.nav-link,
+            .navbar-light .navbar-nav .active>.nav-link,
+            .navbar-light .navbar-nav .nav-link.show,
+            .navbar-light .navbar-nav .nav-link.active,
+            .header-logo a.navbar-brand img {
+                font-family : Roboto, Arial, Helvetica, sans-serif
+            }
+
+
+";s:7:"created";i:1733501939;}

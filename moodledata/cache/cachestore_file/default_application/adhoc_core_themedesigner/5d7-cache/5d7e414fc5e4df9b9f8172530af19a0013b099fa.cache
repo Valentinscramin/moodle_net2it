@@ -1,0 +1,171 @@
+a:2:{s:4:"data";s:7068:"/** Path: plugin block_private_files .' **/
+:root {
+    --color_primary:   43,78,132   !important;
+    --color_secondary: 62,101,160 !important;
+    --color_buttons:   24,48,84   !important;
+    --color_names:     192,204,220     !important;
+    --color_titles:    232,240,251    !important;
+}@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Rule so that the table tree view works with word-wrap: break-word. */
+.block_private_files .content table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.block_private_files .content .footer {
+    padding: 10px 0 0;
+    margin-top: .5em;
+}
+
+.block_private_files ul[role="tree"] {
+    margin: 0;
+    padding: 0;
+}
+.block_private_files ul,
+.block_private_files li {
+    list-style: none;
+}
+
+.block_private_files [role="treeitem"] {
+    padding-left: 22px;
+    cursor: pointer;
+}
+
+.block_private_files [role="treeitem"] p {
+    margin-bottom: 0;
+}
+
+.block_private_files [role="treeitem"][aria-expanded] {
+    padding-left: 0;
+}
+
+.block_private_files [role="treeitem"][aria-expanded="false"] > p {
+    /*rtl:remove*/
+    background-image: url('/moodle/theme/image.php?theme=degrade&component=core&image=t%2Fcollapsed');
+    /*rtl:raw:
+        background-image: url('/moodle/theme/image.php?theme=degrade&component=core&image=t%2Fcollapsed_rtl');
+    */
+    background-size: 16px 16px;
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+.block_private_files [role="treeitem"][aria-expanded="true"] > p {
+    background-image: url('/moodle/theme/image.php?theme=degrade&component=core&image=t%2Fexpanded');
+    background-size: 16px 16px;
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+.block_private_files [role="treeitem"]:not([aria-expanded]) {
+    background-image:
+        repeating-linear-gradient(
+            to right,
+            rgba(0, 0, 0, .5) 0,
+            rgba(0, 0, 0, .5) 1px,
+            rgba(255, 255, 255, 0) 1px,
+            rgba(255, 255, 255, 0) 2px
+        ),
+        repeating-linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.5) 0,
+            rgba(0, 0, 0, 0.5) 1px,
+            rgba(255, 255, 255, 0) 1px,
+            rgba(255, 255, 255, 0) 2px
+        );
+    background-repeat: no-repeat, no-repeat;
+    /*rtl:remove*/
+    background-position: left 10px top 50%, left 8px top 0;
+    /*rtl:raw:
+        background-position: right 10px top 50%, right 8px top 0;
+    */
+    background-size: 11px 1px, 1px 100%;
+}
+
+.block_private_files [role="treeitem"]:not([aria-expanded]):last-child {
+    background-size: 11px 1px, 1px 50%;
+}
+
+.block_private_files [role="group"] {
+    background-image:
+        repeating-linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.5) 0,
+            rgba(0, 0, 0, 0.5) 1px,
+            rgba(255, 255, 255, 0) 1px,
+            rgba(255, 255, 255, 0) 2px
+        );
+    background-repeat: no-repeat;
+    background-position: left 8px top 100%;
+    background-size: 1px 100%;
+    padding-left: 22px;
+    margin-left: 0;
+}
+
+.block_private_files [aria-hidden="true"]:not(.icon) {
+    display: none;
+}
+
+.course-box{
+max-width: 28rem !important;
+}
+.ff_one{
+max-width: 15rem !important;
+}
+            #header.fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.fixed-top .navbar-nav .nav-link.active,
+            #header.fixed-top .header-logo a.navbar-brand img,
+            #header.fixed-top .header-logo a.navbar-brand span,
+            #header.fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.fixed-top {
+                background: #5c5d5f !important;
+            }
+
+            #header.ever-fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.ever-fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.ever-fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.ever-fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.ever-fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.ever-fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.active,
+            #header.ever-fixed-top .header-logo a.navbar-brand img,
+            #header.ever-fixed-top .header-logo a.navbar-brand span,
+            #header.ever-fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.ever-fixed-top .custom-switch .custom-control-label:after{
+                background: #ffffff !important;
+            }
+            #header.ever-fixed-top {
+                background: #5c5d5f !important;
+            }
+body,* {font-family:Roboto, Arial, Helvetica, sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:Montserrat, Arial, Helvetica, sans-serif}
+.header-logo a.navbar-brand span {font-family:Oswald, Arial, Helvetica, sans-serif}
+.header-menubar .primary-navigation ul.navbar-nav li a,
+            .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light .navbar-nav .show>.nav-link,
+            .navbar-light .navbar-nav .active>.nav-link,
+            .navbar-light .navbar-nav .nav-link.show,
+            .navbar-light .navbar-nav .nav-link.active,
+            .header-logo a.navbar-brand img {
+                font-family : Roboto, Arial, Helvetica, sans-serif
+            }
+
+
+";s:7:"created";i:1733501940;}

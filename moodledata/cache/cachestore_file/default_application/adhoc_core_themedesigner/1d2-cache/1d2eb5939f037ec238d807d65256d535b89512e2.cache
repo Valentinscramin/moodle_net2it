@@ -1,0 +1,188 @@
+a:2:{s:4:"data";s:6707:"/** Path: plugin mod_book .' **/
+:root {
+    --color_primary:   43,78,132   !important;
+    --color_secondary: 62,101,160 !important;
+    --color_buttons:   24,48,84   !important;
+    --color_names:     192,204,220     !important;
+    --color_titles:    232,240,251    !important;
+}@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* == Fake toc block == */
+.path-mod-book .book_toc .action-list img.smallicon {
+    margin: 0 3px;
+}
+
+/* toc style INDENTED*/
+.path-mod-book .book_toc ul {
+    display: flex;
+    flex-direction: column;
+}
+.path-mod-book .book_toc li {
+    flex: 1 1 100%;
+}
+.path-mod-book .book_toc_indented > ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.path-mod-book .book_toc_indented li {
+    list-style: none;
+}
+
+/* toc style BULLETED*/
+.path-mod-book .book_toc_bullets > ul {
+    margin-left: 0;
+    padding-left: 1.3rem;
+}
+.path-mod-book .book_toc_bullets li {
+    list-style: disc;
+}
+
+/* toc style NUMBERED*/
+.path-mod-book .book_toc_numbered > ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.path-mod-book .book_toc_numbered li {
+    list-style: none;
+}
+
+/* toc style NONE*/
+.path-mod-book .book_toc_none ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.path-mod-book .book_toc_none li {
+    list-style: none;
+}
+
+.path-mod-book #mod_book-chaptersnavigation {
+    top: 80px;
+    width: inherit;
+    margin: 0 -35px;
+    position: sticky; /* Make navigation sticky. */
+}
+
+.path-mod-book #mod_book-chaptersnavigation .tertiary-navigation .navitem {
+    margin-bottom: -52px;
+}
+
+.path-mod-book .book_content {
+    margin: 0 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative; /* Chapter navigation should not float on top of content. */
+}
+
+.path-mod-book .btn-previous,
+.path-mod-book .btn-next {
+    background: #dee2e6;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 0.075);
+    padding: 13px 10px;
+}
+
+.path-mod-book .btn-previous {
+    border-radius: 200px 0 0 200px;
+}
+
+.path-mod-book .btn-next {
+    border-radius: 0 200px 200px 0;
+}
+
+.path-mod-book.dir-rtl .btn-previous .icon,
+.path-mod-book.dir-rtl .btn-next .icon {
+    transform: scale(-1, -1); /* Flip the icons in RTL languages */
+}
+
+.path-mod-book .btn-previous .icon,
+.path-mod-book .btn-next .icon {
+    font-size: 24px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .path-mod-book #mod_book-chaptersnavigation {
+        top: calc(100% - 250px);
+        margin: 0 -0.5rem;
+        z-index: 1;
+    }
+
+    .path-mod-book .btn-previous,
+    .path-mod-book .btn-next {
+        opacity: 0.85;
+        border-radius: 25px;
+        padding: 10px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .path-mod-book .book_content {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+}
+
+.course-box{
+max-width: 28rem !important;
+}
+.ff_one{
+max-width: 15rem !important;
+}
+            #header.fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.fixed-top .navbar-nav .nav-link.active,
+            #header.fixed-top .header-logo a.navbar-brand img,
+            #header.fixed-top .header-logo a.navbar-brand span,
+            #header.fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.fixed-top {
+                background: #5c5d5f !important;
+            }
+
+            #header.ever-fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.ever-fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.ever-fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.ever-fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.ever-fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.ever-fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.active,
+            #header.ever-fixed-top .header-logo a.navbar-brand img,
+            #header.ever-fixed-top .header-logo a.navbar-brand span,
+            #header.ever-fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.ever-fixed-top .custom-switch .custom-control-label:after{
+                background: #ffffff !important;
+            }
+            #header.ever-fixed-top {
+                background: #5c5d5f !important;
+            }
+body,* {font-family:Roboto, Arial, Helvetica, sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:Montserrat, Arial, Helvetica, sans-serif}
+.header-logo a.navbar-brand span {font-family:Oswald, Arial, Helvetica, sans-serif}
+.header-menubar .primary-navigation ul.navbar-nav li a,
+            .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light .navbar-nav .show>.nav-link,
+            .navbar-light .navbar-nav .active>.nav-link,
+            .navbar-light .navbar-nav .nav-link.show,
+            .navbar-light .navbar-nav .nav-link.active,
+            .header-logo a.navbar-brand img {
+                font-family : Roboto, Arial, Helvetica, sans-serif
+            }
+
+
+";s:7:"created";i:1733501938;}

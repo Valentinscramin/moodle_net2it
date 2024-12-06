@@ -1,0 +1,177 @@
+a:2:{s:4:"data";s:7808:"/** Path: plugin qbank_managecategories .' **/
+:root {
+    --color_primary:   43,78,132   !important;
+    --color_secondary: 62,101,160 !important;
+    --color_buttons:   24,48,84   !important;
+    --color_names:     192,204,220     !important;
+    --color_titles:    232,240,251    !important;
+}@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Card-style border on category lists */
+.qbank_managecategories-categorylist {
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 1rem;
+}
+/* Category item layout */
+.qbank_managecategories-handlecontainer {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.qbank_managecategories-item .container {
+    padding: 0.75rem;
+}
+/* Separators between each item become drop indicators */
+.qbank_managecategories-item {
+    width: 100%;
+    list-style: none;
+    border-top: 1px solid #dee2e6;
+}
+.qbank_managecategories-item:first-child {
+    border-top-color: transparent;
+}
+.qbank_managecategories-item:last-child {
+    border-bottom: 1px solid transparent;
+}
+.qbank_managecategories-item .qbank_managecategories-item:first-child {
+    border-top-color: #dee2e6;
+}
+.qbank_managecategories-item.qbank_managecategories-droptarget-before,
+.qbank_managecategories-item .qbank_managecategories-item.qbank_managecategories-droptarget-before,
+.qbank_managecategories-categorylist.qbank_managecategories-droptarget-before > .qbank_managecategories-item:first-child {
+    border-top-color: black;
+}
+.qbank_managecategories-item.qbank_managecategories-droptarget,
+.qbank_managecategories-categorylist.qbank_managecategories-droptarget > .qbank_managecategories-item:last-child {
+    border-bottom-color: black;
+}
+.qbank_managecategories-details p:last-child {
+    margin-bottom: 0;
+}
+.qbank_managecategories-childlistcontainer:empty {
+    display: none;
+}
+/* Fade effect on drag handle */
+.qbank_managecategories-draghandle {
+    display: none;
+    opacity: 0.45;
+}
+.qbank_managecategories-item.draghandle .qbank_managecategories-draghandle {
+    display: inline;
+}
+/* Drag indicator */
+.qbank_managecategories-item.draghandle > .container {
+    border: 2px solid transparent;
+    border-radius: 1rem;
+}
+.qbank_managecategories-item.draghandle > .container:hover {
+    cursor: move;
+    border-color: #0f6cbf;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+/* No move/delete buttons on non-draggable items */
+.dropdown-item.show-when-movable {
+    display: none;
+}
+.qbank_managecategories-item.draghandle .dropdown-item.show-when-movable {
+    display: block;
+}
+/* Don't show card border on nested lists. */
+.qbank_managecategories-categorylist .qbank_managecategories-categorylist {
+    padding: 0 0 .5rem 0;
+    border: 0;
+    border-radius: 0;
+}
+/* Don't show hover indication on parent when a child is hovered */
+.editing .qbank_managecategories-item .container:hover:has(.container:hover) {
+    border-color: transparent;
+}
+/* New child drop target */
+.qbank_managecategories-newchild {
+    display: none;
+    border: 1px solid #dee2e6;
+    background-color: #fff;
+    padding: 0.25rem 1rem;
+    color: #dee2e6;
+    font-weight: bold;
+}
+.qbank_managecategories-newchild.qbank_managecategories-droptarget,
+/* Show the drop target if it's directly inside a highlighted category, but not if its inside a child of that category */
+.qbank_managecategories-droptarget-before > .container > .row > .qbank_managecategories-contentcontainer > :not(.qbank_managecategories-childlistcontainer) .qbank_managecategories-newchild {
+    display: unset;
+}
+.qbank_managecategories-newchild.qbank_managecategories-droptarget {
+    border-color: black;
+    color: black;
+}
+/* Hidden descriptions */
+.qbank_managecategories-description {
+    display: none;
+}
+.showdescriptions .qbank_managecategories-description {
+    display: unset;
+}
+
+.course-box{
+max-width: 28rem !important;
+}
+.ff_one{
+max-width: 15rem !important;
+}
+            #header.fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.fixed-top .navbar-nav .nav-link.active,
+            #header.fixed-top .header-logo a.navbar-brand img,
+            #header.fixed-top .header-logo a.navbar-brand span,
+            #header.fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.fixed-top {
+                background: #5c5d5f !important;
+            }
+
+            #header.ever-fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open,
+            #header.ever-fixed-top  .popover-region .popover-region-toggle i.icon,
+            #header.ever-fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            #header.ever-fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            #header.ever-fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light.ever-fixed-top .navbar-nav .show>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .active>.nav-link,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.show,
+            .navbar-light.ever-fixed-top .navbar-nav .nav-link.active,
+            #header.ever-fixed-top .header-logo a.navbar-brand img,
+            #header.ever-fixed-top .header-logo a.navbar-brand span,
+            #header.ever-fixed-top .header-menubar .primary-navigation ul.navbar-nav > li > a {
+                color: #ffffff !important;
+            }
+            #header.ever-fixed-top .custom-switch .custom-control-label:after{
+                background: #ffffff !important;
+            }
+            #header.ever-fixed-top {
+                background: #5c5d5f !important;
+            }
+body,* {font-family:Roboto, Arial, Helvetica, sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:Montserrat, Arial, Helvetica, sans-serif}
+.header-logo a.navbar-brand span {font-family:Oswald, Arial, Helvetica, sans-serif}
+.header-menubar .primary-navigation ul.navbar-nav li a,
+            .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle,
+            .header-menubar .navbar-nav .editmode-switch-form .input-group label,
+            .usermenu .moodle-actionmenu a.dropdown-toggle,
+            .navbar-light .navbar-nav .show>.nav-link,
+            .navbar-light .navbar-nav .active>.nav-link,
+            .navbar-light .navbar-nav .nav-link.show,
+            .navbar-light .navbar-nav .nav-link.active,
+            .header-logo a.navbar-brand img {
+                font-family : Roboto, Arial, Helvetica, sans-serif
+            }
+
+
+";s:7:"created";i:1733501941;}
