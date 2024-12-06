@@ -19,7 +19,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'http://net2it.pt/moodle_net2it';
-$CFG->dataroot  = '/public_html/moodle_net2it/moodledata';
+$CFG->dataroot  = '/home/storage/8/65/22/net2it1/public_html/moodle_net2it/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
